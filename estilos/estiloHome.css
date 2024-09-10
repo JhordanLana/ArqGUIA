@@ -1,0 +1,71 @@
+.pontos {
+    margin-block: 0;
+    font-size: 13pt;
+}
+
+strong {
+    font-size: 20pt;
+}
+
+header>aside#menu-opcoes {
+    position: absolute;
+    top: 0;
+    width: 35vw;
+    height: 100%;
+    background: linear-gradient(#C5D0D8, rgb(161, 192, 225));
+    display: flex;
+    flex-direction: column;
+    transition: left 0.5s;
+    z-index: 3;
+}
+
+header>aside.menu {
+    transition: left 0.5s;
+}
+
+header>aside.menu.oculto {
+    left: -35vw;
+}
+
+header>aside.menu.ativo {
+    left: 0;
+}
+
+header>aside>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>aside>div>a {
+    display: block;
+    color: #00364a;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header>aside>div>button {
+    margin: 5%;
+    margin-left: auto;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header>aside>button {
+    width: 10vw;
+}
+
+section#meus-trabalhos div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section#meus-trabalhos figure {
+    margin: 0;
+}
+
+section#meus-trabalhos img {
+    height: 100%;
+}

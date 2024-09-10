@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#manter-conectado {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 64vw;
+}
+
+#manter-conectado > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#manter-conectado label {
+    font-size: 0.8em;
+}
+
+#manter-conectado input {
+    width: 4mm;
+    margin-right: 8mm;
+}
+
+form a {
+    margin: 4mm 0;
+    border-radius: 8px;
+    padding: 0.8em;
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 4mm;
+}
+
+footer>hr {
+    width: 0;
+}

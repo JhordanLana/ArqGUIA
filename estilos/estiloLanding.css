@@ -1,0 +1,24 @@
+section {
+    margin: 8% 4%;
+    text-align: justify;
+}
+
+section.painel {
+    width: 85%;
+}
+
+section.painel>div {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.painel label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+section.painel small {
+    font-size: 1em;
+}

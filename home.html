@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <link rel="stylesheet" href="estilos/estiloHome.css" />
+    <title>ArqGUIA - Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <button onclick="toggleMenu()">OPÇÕES</button>
+                </li>
+                <li>
+                    <a href="landing.html">
+                        <h1>ArqGUIA</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="landing.html">SAIR</a>
+                </li>
+            </ul>
+        </nav>
+        <aside id="menu-opcoes" class="menu oculto">
+            <div>
+                <a href="login.html">Pessoa 1</a>
+                <button onclick="toggleMenu()">x</button>
+            </div>
+            <button>Modo noturno</button>
+        </aside>
+        <hr>
+    </header>
+    <main>
+        <section id="meus-trabalhos">
+        <p class="frase">Acompanhe o progresso de seus trabalhos!</p>
+        <h3>MEUS TRABALHOS:</h3>
+        <div>
+            <figure>
+                <img src="assets/img1.jpeg" />
+            </figure>
+            <figure>
+                <img src="assets/img2.jpeg" />
+            </figure>
+            <figure>
+                <img src="assets/img3.jpeg" />
+            </figure>
+            <figure>
+                <img src="assets/img4.jpeg" />
+            </figure>
+        </div>
+
+        <div class="barra">
+            <progress value="60" max="100">60%</progress>
+        </div>
+
+        <hr class="linhaMenor">
+    </section>
+        <h4> COMEÇAR NOVO TRABALHO: </h4>
+        <p class="pontos"> <strong> <a href="#"> + </a></strong> DESENHO TÉCNICO</p>
+        <p class="pontos"> <strong> <a href="#"> + </a></strong> PRANCHA DE ARQUITETURA</p>
+        <p class="pontos"> <strong> <a href="#"> + </a></strong> SLIDE</p>
+        <p class="pontos"> <strong> <a href="#"> + </a></strong> PESQUISA</p>
+        <p class="pontos"> <strong> <a href="#"> + </a></strong> PERSONALIZADO</p>
+
+        <label for="barrinha">Produtividade: </label>
+        <input type="range" id="barrinha" name="barrinha" min="0" max="10">
+
+        <video controls>
+            <source src="assets/video.mp4" type="video/mp4">
+        </video>
+    </main>
+
+    <footer>
+        <p class="creditos">Felipe Freitas Moraes e Ísis Cristina Arruda de Almeida</p>
+        <p class="creditos">CEFET-MG</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
